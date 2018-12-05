@@ -106,7 +106,7 @@ print("List7 : " +  str(result))
 
 
 
-# In[83]:
+# In[95]:
 
 
 #3. Implement a function longestWord() that takes a list of words and returns the longest one.
@@ -115,14 +115,14 @@ print("List7 : " +  str(result))
 words_list= ["January","Feburary","March","April","May","June","July"]
 
 #define the function 
-def longest_word(words):
+def longestword(words):
     word_len = [] 
     for n in words:
         word_len.append((len(n), n)) 
     word_len.sort() 
     return word_len[-1][1] 
 
-print("the longest work from list is : %s" %longest_word(words_list))
+print("the longest word from list is : %s" %longestword(words_list))
 
 
 # In[ ]:
